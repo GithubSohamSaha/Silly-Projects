@@ -12,9 +12,10 @@ body{
     font-size: 2.5em;
     text-align: center;
     margin-bottom: 20px;
-    background: #00ffdd;
+    background: #00a790;
     font-family: 'Courier New', Courier, monospace;
     height: 70px;
+    border: solid rgb(25, 78, 84) 3px;
 }
 
 .calculator-container{
@@ -34,21 +35,16 @@ body{
     font-size: 2em;
     border-radius: 5px;
 }
-.input-buttons{
+.input-buttons, input[type="button"]{
     display: grid;
-    width: 80%;
-    height: 35px;
+    width: 100%;
+    background-color: black;
+    border: solid black 3px;
     font-style: bold;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 20px;
-}
-.input-buttons button{
-    padding: 10px;
-    border: none;
+    color: whitesmoke;
     border-radius: 5px;
-    cursor: pointer;
-    font-size: 1.5em;
-    transition: 0.3s;
 }
  footer{
     position: absolute;
